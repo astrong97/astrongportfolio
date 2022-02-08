@@ -1,0 +1,48 @@
+body div#ad {
+    background-color: #fadda2;
+    height: 200px;
+}
+
+body div#dealtitle {
+    border-bottom: solid thin;
+}
+
+body h4 {
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+body div#cardpad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container, .navbar{
+    background-color: #f0eff4;
+    font-family: "metropolis.thin";
+}
+
+.mainback{
+    background-color: #f0eff4;
+}
+
+.navbar-custom {
+    background-color: #6b61ff;
+}
+
+.btn-custom {
+    background-color: #6b61ff;
+}
+
+.imagestatic {
+    position:absolute;
+}
+
+.imagestatic:hover {
+    opacity:0;
+  }
+
+@font-face {
+    font-family: "metropolis.thin";
+    src: url("metropolis.thin.otf") format('opentype');
+  }
