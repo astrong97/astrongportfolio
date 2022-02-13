@@ -44,5 +44,5 @@ body div#cardpad {
 
 @font-face {
     font-family: "metropolis.thin";
-    src: url("metropolis.thin.otf") format('opentype');
+    src: url("fonts/metropolis.thin.otf") format('opentype');
   }
