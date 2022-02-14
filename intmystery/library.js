@@ -9,8 +9,8 @@ var story_telling = {
       "question":
         "You feel groggy as you wake up. Sitting up, you realize you're on the floor of a library. It's dark and the only thing you can hear is the sound of a thunderstorm. What do you do next?",
       "answers": {
-        "a": "Search for your cell phone",
-        "b": "Find an exit",
+        "a": "(Search for your cell phone)",
+        "b": "(Find an exit)",
       }
     },
   
