@@ -14,22 +14,47 @@ var story_telling = {
       }
     },
   
+    // second test
     "1_a": {
       "question":
-        "Big surprise: your pockets are emtpy. You stand up now and look around.",
+        "Big surprise: your pockets are emtpy. You can't possibly survive without a cell phone. You stand up now and look around, thinking of the next best thing to do...",
       "answers": {
-        "a": "Find an exit",
-        "b": "Sit down and give up.",
+        "a": "(Look for signs of technology.)",
+        "b": "(Sit down and give up.)",
       }
     },
     "1_b": {
       "question":
-        "Big surprise: your pockets are emtpy. You stand up now and look around.",
+        "You walk around the dark library and search every corner. There seem to be no doors or windows. What should you do next?",
       "answers": {
-        "c": "Find an exit",
-        "d": "Sit down and give up.",
+        "c": "(Find a source of light.)",
+        "d": "(Do a little dance.)",
           }
-      }
+      },
+
+      //third test
+
+      "2_a": {
+        "question":
+          "After making your way to what looks like a front desk, you see a typewriter.",
+        "answers" : {
+          "a": "(Open it.)",
+          "b": "(Write the next best-selling novel.)"
+        }
+      },
+      "2_b": {
+        "question":
+          "You sit down and decide it's not worth the effort. You spend your final days in a lonely library. THE END."
+      },
+      "2_c": {
+        "question":
+          "Gliding your hand across every square-inch of the walls, you finally find a light switch. Switching it on, the room lights up and reveals seven rows of bookcases. They're color-coded, in the order of the rainbow.",
+        "answers" : {
+          "a": "(Take a look at each row.)",
+          "b": "(Move the books around and create chaos.)"
+        }
+      },
+
   };
 // Continue link
 submit.addEventListener('mouseup', function(){ //when a button on a pointing device is released while the pointer is located inside it
