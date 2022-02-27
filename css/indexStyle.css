@@ -12,22 +12,32 @@ body h4 {
   flex-direction: row;
 }
 
+#clickimg {
+  padding: 5%;
+  background-color: rgba(132, 190, 206, 0.5);
+  border-radius: 10px;
+}
+
 .container,
 .navbar {
-  background-color: #f0eff4;
+  background-color: #d3d8db;
   font-family: "metropolis.thin";
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
 }
 
 .mainback {
-  background-color: #f0eff4;
+  background-color: #d3d8db;
+  align-items: center;
 }
 
 .navbar-custom {
-  background-color: #6b61ff;
+  background-color: #083131;
 }
 
 .btn-custom {
-  background-color: #6b61ff;
+  background-color: #083131;
 }
 
 .imagestatic {
@@ -48,5 +58,5 @@ body h4 {
 
 @font-face {
   font-family: "metropolis.thin";
-  src: url("fonts/metropolis.thin.otf") format("opentype");
+  src: url("../fonts/metropolis.thin.otf") format("opentype");
 }
