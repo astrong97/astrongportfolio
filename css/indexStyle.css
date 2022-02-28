@@ -5,6 +5,18 @@ body h4 {
 
 .imgcontainer {
   position: relative;
+  flex: 1;
+}
+
+.imgshow {
+  flex:1;
+  width:50px;
+  height: auto;
+}
+
+p {
+  max-width: 150px;
+  height: auto;
 }
 
 .container {
@@ -14,8 +26,8 @@ body h4 {
 
 #clickimg {
   padding: 5%;
-  background-color: rgba(132, 190, 206, 0.5);
-  border-radius: 10px;
+  background-color: rgba(132, 190, 206, 0.1);
+  border-radius: 20px;
 }
 
 .container,

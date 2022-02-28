@@ -1,0 +1,79 @@
+.container,
+.navbar {
+  background-color: #d3d8db;
+  font-family: "metropolis.thin";
+}
+
+.mainback {
+  background-color: #d3d8db;
+}
+
+.navbar-custom {
+  background-color: #083131;
+}
+
+.btn-custom {
+  background-color: #083131;
+}
+
+@font-face {
+  font-family: "metropolis.thin";
+  src: url("../fonts/metropolis.thin.otf") format("opentype");
+}
+
+body {
+  background-color: #292a2b;
+}
+
+h1 {
+  padding-left: 1%;
+  background: linear-gradient(#84bece, #d3d8db);
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+  background: linear-gradient(to bottom left, blue, purple, yellow);
+  
+}
+
+a {
+    float: left;
+    position: relative;
+}
+
+p {
+    text-align: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 65px;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+
+#blogcontainer {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#col1, #col2 {
+    border: solid;
+    color: #105d63;
+    width: 60%;
+    min-height: 80px;
+}
+
+.colcontainers {
+    padding-top: 5%;
+}
