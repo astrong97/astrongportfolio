@@ -39,6 +39,11 @@ h1 {
   color: white;
 }
 
+.fa-github {
+  background: black;
+  color: white;
+}
+
 .fa-instagram {
   color: white;
   background: linear-gradient(to bottom left, blue, purple, yellow);
@@ -67,7 +72,7 @@ p {
   margin-right: 7%;
 }
 
-#col1, #col2 {
+#col1, #col2, #col3 {
     border: solid;
     color: #105d63;
     width: 60%;
