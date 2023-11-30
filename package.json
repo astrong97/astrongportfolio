@@ -1,12 +1,11 @@
 {
-  "name": "astrong97.github.io",
+  "name": "vuejs-tailwindcss-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "publish": "npm run build && rm -rf docs; cp -r dist docs && sed -i -e 's/src=\\//src=/g' docs/index.html ; sed -i -e 's/href=\\//href=/g' docs/index.html"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
