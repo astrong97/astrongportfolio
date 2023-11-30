@@ -9,6 +9,6 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push -f git@github.com:astrong97/astrong97.github.io master:gh-pages
+git push -f git@github.com:astrong97/astrong97.github.io master:master
 
 cd -
