@@ -46,7 +46,7 @@ export default {
 			>
 				Application Developer and Technical Documentation Enthusiast
 			</p>
-			<div class="flex justify-center sm:block">
+			<!-- <div class="flex justify-center sm:block">
 				<a
 					download="ResumeAStrong_23.pdf"
 					href="/files/ResumeAStrong_23.pdf"
@@ -62,7 +62,7 @@ export default {
 						>Download Resume</span
 					></a
 				>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Banner right illustration -->
